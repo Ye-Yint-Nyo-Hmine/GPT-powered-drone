@@ -13,7 +13,7 @@ drone = tello.Tello(retry_count=1)
 # drone personals
 sleep = False
 
-
+# print txt
 def say(text: str):
     print(text)
 
